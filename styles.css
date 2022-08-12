@@ -1,0 +1,44 @@
+#app-container {
+  width: 400px;
+  min-height: 500px;
+  background-color: lightblue;
+  border-radius: 3%;
+  text-align: center;
+  color: darkred;
+}
+
+h1, h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkblue;
+  padding-top: 15px;
+}
+
+table {
+  margin: auto;
+}
+
+button {
+  color: darkblue;
+}
+
+.game-square {
+  font-size: 50px;
+  width: 75px;
+  height: 75px;
+  background-color: lightcoral;
+  color: black;
+  box-shadow: 1px 1px 1px lightslategrey;
+  cursor: pointer;
+}
+
+.game-square:disabled {
+  cursor: default;
+}
+
+#restart-button {
+  display: none;
+  font-size: 24px;
+  padding: 12px;
+  margin: 12px auto;
+  cursor: pointer;
+}
